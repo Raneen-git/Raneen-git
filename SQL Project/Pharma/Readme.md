@@ -4,6 +4,7 @@ Tech Stack: PostgreSQL, Advanced Window Functions, CTEs, Relational Data Modelin
 **1. Data Arch and Schema**
 
 -- 1. Create Tables with Relational Constraints
+'''sql
 DROP TABLE IF EXISTS prescriptions CASCADE;
 DROP TABLE IF EXISTS sales_calls CASCADE;
 DROP TABLE IF EXISTS digital_interactions CASCADE;
@@ -88,7 +89,7 @@ INSERT INTO digital_interactions (physician_id, interaction_date, channel_type, 
 (103, '2025-08-11', 'Webinar', 8),
 (104, '2025-04-12', 'Email', 9), 
 (104, '2025-08-18', 'Email', 5);
-
+'''sql
 
 
 **2. Insights and Queries**
